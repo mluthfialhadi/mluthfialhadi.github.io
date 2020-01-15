@@ -1,0 +1,43 @@
+{
+    "packages": [
+      {
+        "name": "Rainboard",
+        "maintainer": "Rain City Robotic Solution",
+        "websiteURL": "rainboard.id",
+        "help": {
+          "online": "http://rainboard.id"
+        },
+        "platforms": [
+            {
+                "name": "Rainboard",
+                "architecture": "avr",
+                "version": "1.0",
+                "category": "Contributed",
+                "help": {
+                  "online": "http://rainboard.id"
+                },
+                "url": "https://mluthfialhadi.github.io/Rainboard/Rainboard.zip",
+                "archiveFileName": "Rainboard.zip",
+                "checksum": "SHA-256:f5a64a36fd6bdb0074b10f0720f3e8f03df63a2425ef4bd33a737f3105dd0454",
+                "size": "348393",
+                "boards": [
+                  {"name": "Rainboard RGB/Arduino UNO"}
+                 ],
+                "toolsDependencies": [
+                  {
+                    "packager": "arduino",
+                    "name": "avr-gcc",
+                    "version": "4.8.1-arduino5"
+                  },
+                  {
+                    "packager": "arduino",
+                    "name": "avrdude",
+                    "version": "6.0.1-arduino5"
+                  }
+                ]
+              }
+            ],
+            "tools":[]
+          }
+        ]
+      }
