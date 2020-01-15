@@ -18,8 +18,8 @@
                 },
                 "url": "https://mluthfialhadi.github.io/Rainboard/Rainboard.zip",
                 "archiveFileName": "Rainboard.zip",
-                "checksum": "SHA-256:f5a64a36fd6bdb0074b10f0720f3e8f03df63a2425ef4bd33a737f3105dd0454",
-                "size": "348393",
+                "checksum": "SHA-256:01a03e363f5c50284c25e6e25a33cd00e985890f62ae45086963ff9c8d4523fd",
+                "size": "345957",
                 "boards": [
                   {"name": "Rainboard RGB/Arduino UNO"}
                  ],
