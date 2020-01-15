@@ -16,10 +16,10 @@
                 "help": {
                   "online": "http://rainboard.id"
                 },
-                "url": "https://mluthfialhadi.github.io/Rainboard/Rainboard.zip",
-                "archiveFileName": "Rainboard.zip",
-                "checksum": "SHA-256:01a03e363f5c50284c25e6e25a33cd00e985890f62ae45086963ff9c8d4523fd",
-                "size": "345957",
+                "url": "https://mluthfialhadi.github.io/Rainboard/rainboard.tar.gz",
+                "archiveFileName": "rainboard.tar.gz",
+                "checksum": "SHA-256:473714a9dec6c8bc3414a91b7a4de44689a7e9e08c34df6ad10ceefe6145a6eb",
+                "size": "339640",
                 "boards": [
                   {"name": "Rainboard RGB/Arduino UNO"}
                  ],
