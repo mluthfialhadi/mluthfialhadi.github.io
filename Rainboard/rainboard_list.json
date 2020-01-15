@@ -1,43 +1,44 @@
 {
   "packages": [
-     {
-        "name": "Rainboard",
-        "maintainer": "Rain City Robotic Solution",
-        "websiteURL": "rainboard.id",
-        "help": {
-          "online": "http://rainboard.id"
-        },
-        "platforms": [
-            {
-                "name": "Rainboard",
-                "architecture": "avr",
-                "version": "1.0",
-                "category": "Contributed",
-                "help": {
-                  "online": "http://rainboard.id"
-                },
-                "url": "https://mluthfialhadi.github.io/Rainboard/rainboard.tar.gz",
-                "archiveFileName": "rainboard.tar.gz",
-                "checksum": "SHA-256:cc5ccf2c144ad100dcc2f17e98f3f64fec5ecfacb4a88cc059bd2c996a308aa7",
-                "size": "345492",
-                "boards": [
-                  {"name": "Rainboard RGB/Arduino UNO"}
-                 ],
-                 "toolsDependencies": [
-                  {
-                    "packager": "arduino",
-                    "name": "avr-gcc",
-                    "version": "4.8.1-arduino5"
-                  },
-                  {
-                    "packager": "arduino",
-                    "name": "avrdude",
-                    "version": "6.0.1-arduino5"
-                  }
-                ]
-            }
+    {
+      "name": "Rainboard",
+      "maintainer": "Rain City Robotic Solution",
+      "websiteURL": "http://rainboard.id",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "Rainboard",
+          "architecture": "avr",
+          "version": "1.0",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/mluthfialhadi/mluthfialhadi.github.io/raw/master/Rainboard/Rainboard.zip",
+          "archiveFileName": "Rainboard.zip",
+          "checksum": "SHA-256:01a03e363f5c50284c25e6e25a33cd00e985890f62ae45086963ff9c8d4523fd",
+          "size": "345957",
+          "boards": [
+            {"name": "Rainboard RGB/Arduino UNO"}
           ],
-        "tools":[]
-     }
-   ]
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
 }
