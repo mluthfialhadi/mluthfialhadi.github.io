@@ -12,10 +12,10 @@
           "architecture": "avr",
           "version": "1.0",
           "category": "Contributed",
-          "url": "https://mluthfialhadi.github.io/Rainboard/Rainboard.zip",
+          "url": "https://github.com/mluthfialhadi/mluthfialhadi.github.io/archive/Rainboard.zip",
           "archiveFileName": "Rainboard.zip",
-          "checksum": "MD5:a6fc160952726cbef9dc8ac4a6eff7b4",
-          "size": "348393",          
+          "checksum": "SHA-256:01a03e363f5c50284c25e6e25a33cd00e985890f62ae45086963ff9c8d4523fd",
+          "size": "345957",
           "boards": [
             {"name": "Rainboard RGB/Arduino UNO"}
            ],
