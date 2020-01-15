@@ -12,7 +12,7 @@
           "architecture": "avr",
           "version": "1.0",
           "category": "Contributed",
-          "url": "https://mluthfialhadi.github.io/Rainboard/Rainboard.rar",
+          "url": "https://mluthfialhadi.github.io/Rainboard/Rainboard.zip",
           "archiveFileName": "Rainboard.rar",
           "boards": [
             {"name": "Rainboard RGB/Arduino UNO"}
