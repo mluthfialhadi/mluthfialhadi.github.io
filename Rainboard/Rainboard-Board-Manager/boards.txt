@@ -1,0 +1,71 @@
+menu.bootloader=Bootloader
+menu.clock=Clock
+menu.BOD=BOD
+menu.LTO=Compiler LTO 
+menu.variant=Variant
+
+#######################
+#    Rainboard RGB    #
+#######################
+
+rgb.name=Rainboard RGB/Arduino UNO
+rgb.upload.tool=avrdude
+rgb.upload.maximum_data_size=2048
+rgb.bootloader.tool=avrdude
+rgb.bootloader.unlock_bits=0x3f
+rgb.bootloader.lock_bits=0x0f
+rgb.build.core.path=hardware\Rainboard\avr\cores\Rainboard_core
+rgb.build.core=Rainboard_core
+rgb.build.board=AVR_RGB
+rgb.build.mcu=atmega328p
+
+# Bootloader select
+rgb.menu.bootloader.true=Yes
+rgb.menu.bootloader.true.upload.maximum_size=32256
+rgb.menu.bootloader.true.upload.protocol=arduino
+rgb.menu.bootloader.true.bootloader.high_fuses=0xd6
+rgb.menu.bootloader.true.bootloader.file=Rainboard_Optiboot/{build.board}/optiboot_flash_{build.mcu}_{upload.port}_{upload.speed}_{build.f_cpu}.hex
+rgb.menu.bootloader.true.bootloader.cksel_bits=0111
+
+rgb.menu.bootloader.false=No
+rgb.menu.bootloader.false.upload.maximum_size=32768
+rgb.menu.bootloader.false.bootloader.high_fuses=0xd7
+rgb.menu.bootloader.false.bootloader.file=empty/empty.hex
+
+# Clock frequencies
+rgb.menu.clock.16MHz_external=16 MHz external
+rgb.menu.clock.16MHz_external.upload.port=UART0
+rgb.menu.clock.16MHz_external.upload.speed=115200
+rgb.menu.clock.16MHz_external.bootloader.low_fuses=0b1111{bootloader.cksel_bits}
+rgb.menu.clock.16MHz_external.build.f_cpu=16000000L
+
+rgb.menu.clock.20MHz_external=20 MHz external
+rgb.menu.clock.20MHz_external.upload.speed=115200
+rgb.menu.clock.20MHz_external.bootloader.low_fuses=0b1111{bootloader.cksel_bits}
+rgb.menu.clock.20MHz_external.build.f_cpu=20000000L
+
+rgb.menu.clock.12MHz_external=12 MHz external
+rgb.menu.clock.12MHz_external.upload.speed=57600
+rgb.menu.clock.12MHz_external.bootloader.low_fuses=0b1111{bootloader.cksel_bits}
+rgb.menu.clock.12MHz_external.build.f_cpu=12000000L
+
+rgb.menu.clock.8MHz_internal=8 MHz internal
+rgb.menu.clock.8MHz_internal.upload.speed=38400
+rgb.menu.clock.8MHz_internal.bootloader.low_fuses=0xe2
+rgb.menu.clock.8MHz_internal.build.f_cpu=8000000L
+
+rgb.menu.clock.1MHz_internal=1 MHz internal
+rgb.menu.clock.1MHz_internal.upload.speed=9600
+rgb.menu.clock.1MHz_internal.bootloader.low_fuses=0x62
+rgb.menu.clock.1MHz_internal.build.f_cpu=1000000L
+
+
+# Brown out detection
+rgb.menu.BOD.2v7=2.7v
+rgb.menu.BOD.2v7.bootloader.extended_fuses=0xfd
+rgb.menu.BOD.4v3=4.3v
+rgb.menu.BOD.4v3.bootloader.extended_fuses=0xfc
+rgb.menu.BOD.1v8=1.8v
+rgb.menu.BOD.1v8.bootloader.extended_fuses=0xfe
+rgb.menu.BOD.disabled=Disabled
+rgb.menu.BOD.disabled.bootloader.extended_fuses=0xff
