@@ -1,8 +1,8 @@
 {
   "packages": [
     {
-      "name": "MiniCore",
-      "maintainer": "MCUdude",
+      "name": "Rainboard",
+      "maintainer": "Rain City Robotic Solution",
       "websiteURL": "http://rainboard.id",
       "email": "",
       "help": { "online": "http://rainboard.id" },
@@ -15,9 +15,20 @@
           "url": "https://mluthfialhadi.github.io/Rainboard/Rainboard.rar",
           "archiveFileName": "Rainboard.rar",
           "boards": [
-            {"name": "Rainboard RGGB/Arduino UNO"}
+            {"name": "Rainboard RGB/Arduino UNO"}
            ],
-          "toolsDependencies": []
+           "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
         }
       ],
       "tools": []
