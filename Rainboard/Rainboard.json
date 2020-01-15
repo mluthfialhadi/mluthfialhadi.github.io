@@ -12,9 +12,11 @@
           "architecture": "avr",
           "version": "1.0",
           "category": "Contributed",
-          "url": "https://github.com/mluthfialhadi/m.luthfi.alhadi/raw/rainboard/Rainboard.rar",
-          "archiveFileName": "Rainboard",
-          "boards": [{"name": "Rainboard RGGB/Arduino UNO"}],
+          "url": "https://mluthfialhadi.github.io/Rainboard/Rainboard.rar",
+          "archiveFileName": "Rainboard.rar",
+          "boards": [
+            {"name": "Rainboard RGGB/Arduino UNO"}
+           ],
           "toolsDependencies": []
         }
       ],
