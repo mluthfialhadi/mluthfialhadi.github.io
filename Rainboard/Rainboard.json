@@ -1,0 +1,24 @@
+{
+  "packages": [
+    {
+      "name": "MiniCore",
+      "maintainer": "MCUdude",
+      "websiteURL": "http://rainboard.id",
+      "email": "",
+      "help": { "online": "http://rainboard.id" },
+      "platforms": [
+        {
+          "name": "Rainboard",
+          "architecture": "avr",
+          "version": "1.0",
+          "category": "Contributed",
+          "url": "https://github.com/mluthfialhadi/m.luthfi.alhadi/raw/rainboard/Rainboard.rar",
+          "archiveFileName": "Rainboard",
+          "boards": [{"name": "Rainboard RGGB/Arduino UNO"}],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
