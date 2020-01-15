@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "Rainboard",
+          "name": "Rainboard-cores",
           "architecture": "avr",
           "version": "1.0",
           "category": "Contributed",
